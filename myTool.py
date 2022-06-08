@@ -52,9 +52,9 @@ async def img_down(title, url, semaphore=10, path='imgs'):
 # 发送邮件
 def email():
     msg = MIMEText('程序停止运行', 'plain', 'utf-8')
-    from_addr = '1642067392@qq.com'
-    password = 'xgkhwqqlidfsdhji'
-    to_addr = '1642067392@qq.com'
+    from_addr = ''
+    password = ''
+    to_addr = ''
     smtp_server = 'smtp.qq.com'
     msg['From'] = Header(from_addr)
     msg['To'] = Header(to_addr)
