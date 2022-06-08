@@ -98,7 +98,7 @@ class TaoBao:
 
 
 if __name__ == '__main__':
-    s = SeleniumGetCookies('tb9762414031', 'cht618618')
+    s = SeleniumGetCookies('用户名', '密码')
     session = s.run()
     t = TaoBao(session)
     t.extract_url()
